@@ -1,0 +1,23 @@
+filea = open('209-0.txt','r', encoding='utf8')
+import codecs
+filea = codecs = open('209-0.txt','r', encoding='utf8')
+filea = codecs.open('209-0.txt','r', encoding='utf8')
+story = filea.read()
+story
+story.strip('\r')
+type(story)
+story.encode('ascii','ignore')
+story
+story.encode('ascii','ignore')
+story
+story.encode('ascii','replace')
+str(story)
+story.encode('ascii','ignore')
+story = story.encode('ascii','ignore')
+story.replace('\r', " ")
+story = story.replace('\r', " ")
+story = story.replace('\n', " ")
+story
+data = story.split(' ')
+data
+
